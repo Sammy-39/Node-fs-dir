@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Sammy-39/Node-fs-dir/issues"
   },
-  "homepage": "https://github.com/Sammy-39/Node-fs-dir#readme"
+  "homepage": "https://github.com/Sammy-39/Node-fs-dir#readme",
+  "engines": {
+    "node": "12.x"
+  }
 }
