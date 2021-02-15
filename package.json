@@ -1,0 +1,22 @@
+{
+  "name": "fs-dir",
+  "version": "1.0.0",
+  "description": "NodeJS code to read a directory's content and check whether it is a file or a sub-directory.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sammy-39/Node-fs-dir.git"
+  },
+  "author": "sammy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sammy-39/Node-fs-dir/issues"
+  },
+  "homepage": "https://github.com/Sammy-39/Node-fs-dir#readme",
+  "engines": {
+    "node": "12.x"
+  }
+}
