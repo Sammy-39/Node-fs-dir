@@ -20,7 +20,7 @@ try{
             })
             const httpServer = http.createServer((req,res)=>{
                 res.writeHead(200,{"Content-Type": "text/html"})
-                res.write('<h4> Reading directory content: ../node-fs-dir </h4>')
+                res.write(`<h4> Reading directory content: ${folderpath} </h4>`)
                 res.write('<ul>')
                 dataList.map((op)=>res.write(`<li> ${op} </li>`))
                 res.write('</ul>')
